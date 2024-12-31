@@ -9,7 +9,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 # Logo y título principal
-#add_logo("assets/codingisfun_logo.png", height=150)
 st.title(" PORTFOLIO")
 st.markdown("<p style='text-align: center; font-size: 20px;'>Explora mis notebooks de GitHub directamente desde aquí.</p>", unsafe_allow_html=True)
 
@@ -21,7 +20,6 @@ option = st.sidebar.radio(
 )
 
 st.sidebar.title("📄 Sobre mi")
-st.sidebar.image("./assets/1perfil.JPG", width=200)
 st.sidebar.write("**Haidel Valera**")
 st.sidebar.write("Analista de Datos, apoyando a empresas mediante el soporte de la toma de decisiones basada en datos.")
 st.sidebar.write("---")
