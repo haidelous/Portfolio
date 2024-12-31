@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 # Logo y título principal
-add_logo("assets/codingisfun_logo.png", height=150)
+#add_logo("assets/codingisfun_logo.png", height=150)
 st.title(" PORTFOLIO")
 st.markdown("<p style='text-align: center; font-size: 20px;'>Explora mis notebooks de GitHub directamente desde aquí.</p>", unsafe_allow_html=True)
 
